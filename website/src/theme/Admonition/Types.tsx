@@ -13,7 +13,7 @@ import Heading from '@theme/Heading';
 function MyCustomAdmonition(props: Props): ReactNode {
   return (
     <div style={{border: 'solid red', padding: 10}}>
-      <Heading as="h5" style={{color: 'blue', fontSize: 30}}>
+      <Heading as="h5" style={{color: 'red', fontSize: 30}}>
         {props.title}
       </Heading>
       <div>{props.children}</div>
